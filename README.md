@@ -1,1 +1,1 @@
-# tailwindcss-css-like
+# tailwindcss-like-css
