@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-like-css",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tailwind CSS plugin for writing with CSS-like class names",
   "keywords": [
     "tailwindcss",
