@@ -1270,13 +1270,7 @@ export default plugin(
         '[]': '[]',
       },
 
-      extend: {
-        fontFamily: {
-          sans: 'Inter, YakuHanJPs, YakuHanJP, "Kinto Sans", sans-serif',
-          mono: '"Source Code Pro", monospace',
-          emoji: 'Emoji, emoji',
-        },
-      },
+      extend: {},
     },
     corePlugins: [
       // Layout
