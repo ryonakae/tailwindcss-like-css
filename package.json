@@ -1,10 +1,22 @@
 {
   "name": "tailwindcss-like-css",
-  "description": "TailwindCSS plugin for writing with CSS-like class names",
-  "version": "1.0.0",
-  "repository": "git@github.com:ryonakae/tailwindcss-like-css.git",
+  "version": "0.1.0",
+  "description": "Tailwind CSS plugin for writing with CSS-like class names",
+  "keywords": [
+    "tailwindcss",
+    "tailwindcss-plugin",
+    "utility-classes"
+  ],
+  "homepage": "https://github.com/ryonakae/tailwindcss-like-css#readme",
+  "bugs": {
+    "url": "https://github.com/ryonakae/tailwindcss-like-css/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ryonakae/tailwindcss-like-css.git"
+  },
   "license": "MIT",
-  "author": "Ryo Nakae <ryo.n.1129@gmail.com>",
+  "author": "Ryo Nakae (https://brdr.jp)",
   "type": "module",
   "exports": {
     ".": {
