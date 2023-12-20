@@ -10,7 +10,7 @@ This plugin has the following features.
 ## Installation
 
 ```
-$ npm install tailwindcss-like-css
+$ npm install --save-dev tailwindcss-like-css
 ```
 
 ## Usage
@@ -18,17 +18,20 @@ $ npm install tailwindcss-like-css
 ```
 // tailwind.config.ts
 import type { Config } from 'tailwindcss'
-import likeCss from 'tailwindcss-like-css'
 
 const config: Config = {
   theme: {
     // ...
   },
   plugins: [
-    likeCss(),
+    require('tailwindcss-like-css'),
     // ...
   ],
 }
 
 export default config
 ```
+
+## Class Names Cheat Sheet
+
+WIP
