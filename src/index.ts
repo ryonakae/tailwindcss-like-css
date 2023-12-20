@@ -1105,6 +1105,9 @@ export default plugin(
       },
 
       // Typography
+      fontFamily: {
+        '[]': '[]',
+      },
       fontSize: {
         '[]': '[]',
       },
