@@ -1,0 +1,52 @@
+{
+  "name": "tailwindcss-like-css",
+  "description": "TailwindCSS plugin for writing with CSS-like class names",
+  "version": "1.0.0",
+  "repository": "git@github.com:ryonakae/tailwindcss-like-css.git",
+  "license": "MIT",
+  "author": "Ryo Nakae <ryo.n.1129@gmail.com>",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepack": "yarn build",
+    "prepare": "husky install",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=14.16"
+  }
+}
