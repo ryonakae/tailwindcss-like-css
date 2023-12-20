@@ -72,6 +72,21 @@ export default plugin(
       '.display-none': { display: 'none' },
     })
     addUtilities({
+      '.float-inline-start': { float: 'inline-start' },
+      '.float-inline-end': { float: 'inline-end' },
+      '.float-right': { float: 'right' },
+      '.float-left': { float: 'left' },
+      '.float-none': { float: 'none' },
+    })
+    addUtilities({
+      '.clear-inline-start': { clear: 'inline-start' },
+      '.clear-inline-end': { clear: 'inline-end' },
+      '.clear-left': { clear: 'left' },
+      '.clear-right': { clear: 'right' },
+      '.clear-both': { clear: 'both' },
+      '.clear-none': { clear: 'none' },
+    })
+    addUtilities({
       '.isolation-isolate': { isolation: 'isolate' },
       '.isolation-auto': { isolation: 'auto' },
     })
@@ -110,7 +125,6 @@ export default plugin(
     addDynamicUtilities('bottom', null, 'inset')
     addDynamicUtilities('left', null, 'inset')
     addDynamicUtilities('inset', null, 'inset')
-    addDynamicUtilities('inset-inline', null, 'inset')
     addDynamicUtilities('inset-inline-start', null, 'inset')
     addDynamicUtilities('inset-inline-end', null, 'inset')
     addUtilities({
@@ -1280,8 +1294,6 @@ export default plugin(
       'breakAfter',
       'breakBefore',
       'breakInside',
-      'float',
-      'clear',
       'overflow',
 
       // Flexbox & Grid
